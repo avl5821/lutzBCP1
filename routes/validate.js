@@ -4,7 +4,7 @@
 // * The server validates the blockchain.
 
 
-
+//THIS IS THE WEB OUTPUT ON LOCAL HOST, http://localhost:8080/validate
 function validate(app) {
 
     // Validate the server's instance of a blockchain

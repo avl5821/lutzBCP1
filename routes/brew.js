@@ -1,6 +1,7 @@
 // ./routes/brew.js
 // * The server attempts to brew coffee, but fails, because it is a teapot.
 
+//THIS IS THE WEB OUTPUT ON LOCAL HOST, a funny meme this time.
 function brew(app) {
     // (Attempt) to get some coffee
     app.get("/brew", function (request, response) {

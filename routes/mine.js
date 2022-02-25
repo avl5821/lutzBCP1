@@ -4,7 +4,7 @@
 // * The server mines a new block, and adds it to its personal chain.
 
 
-
+//THIS IS THE WEB OUTPUT ON LOCAL HOST, http://localhost:8080/mine
 function mine(app) {
 
     app.get("/mine", (request, response) => {

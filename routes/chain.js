@@ -4,7 +4,7 @@
 // * The server prints out the entire blockchain.
 
 
-
+//THIS IS THE WEB OUTPUT ON LOCAL HOST, http://localhost:8080/chain
 function chain(app) {
 
     // Print out the entire blockchain

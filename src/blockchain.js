@@ -7,11 +7,11 @@
 
 
 // * Imports
-
+//this is src/block 
 const Block = require("./block"); // Our class definition for a block
 
 
-
+//prolly the most difficult part of the assignment, DO NOT CHANGE for time being
 class Blockchain {
 
     constructor() {

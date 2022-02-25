@@ -10,7 +10,7 @@
 const Transaction = require("../src/transaction");
 
 
-
+//THIS IS THE WEB OUTPUT ON LOCAL HOST, http://localhost:8080/listtransactions
 function listtransactions(app) {
 
     // List all transactions

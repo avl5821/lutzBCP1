@@ -51,12 +51,12 @@ function generateRandomIPv4() {
 // Generates a random money amount as a mock amount
 
 function generateRandomMoney() {
-
+    //math.random makes real between 0 and 1
     return Math.floor(Math.random() * 1000000);
 
 }
 
-
+//need two users and money value
 class Transaction {
 
     constructor(fromAddress = "", toAddress = "", amount = 0) {

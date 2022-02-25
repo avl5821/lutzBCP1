@@ -1,6 +1,8 @@
 // ./routes/index.js
 // * Dynamically loads route files included in this folder.
 
+
+//!!THIS IS THE ROUTES INDEX NOT THE MAIN ONE!!
 // * Imports
 const fs = require("fs"); // Used for file indexing; Built-in
 

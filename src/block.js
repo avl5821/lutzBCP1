@@ -10,6 +10,7 @@ const crypto = require("crypto"); // Used for encryption algorithms; Built-in
 
 // Define a SHA256 hash function from our crypto library
 
+//SECURE HASH ALGORITHM, 256 bit, block security
 function SHA256(message) {
 
     return crypto
@@ -23,7 +24,7 @@ function SHA256(message) {
 }
 
 
-
+//Blocks, basically linked list nodes
 class Block {
 
     constructor(prevHash = "", transactions = []) {
